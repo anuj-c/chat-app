@@ -47,7 +47,7 @@ io.on('connection', (socket) => {
 
         // io.to(user.room).emit('message', generateMessage(user.username, message))
         socket.broadcast.to(user.room).emit('message', generateMessage(user.username ,message))
-        socket.emit('message', generateMessage('Me',message))``
+        socket.emit('message', generateMessage('Me',message));
         callback()
     })
 
