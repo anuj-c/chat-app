@@ -1,0 +1,20 @@
+@media screen and (max-width: 700px){
+    .chat__sidebar{
+        position: absolute;
+        height: 12vh;
+        width: 100vw;
+        text-align: center;
+    }
+    .chat__main{
+        position: absolute;
+        height: 88vh;
+        width: 100vw !important;
+        top: 12vh;
+    }
+    .compose{
+        padding: 5px !important;
+    }
+    #send-location{
+        margin: 5px;
+    }
+}
