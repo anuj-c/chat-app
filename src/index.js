@@ -74,6 +74,8 @@ io.on('connection', (socket) => {
 
 // this second comment is from new branch
 
+// third comment
+
 server.listen(port, () => {
     console.log(`Server is up on port ${port}`)
 })
